@@ -1,0 +1,43 @@
+{
+  "name": "minimatch-bug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
+    "lint:quiet": "eslint --quiet \"{tests,src}/**/*.{js,ts,tsx,vue}\" && npm run check-types",
+    "serve": "vue-cli-service serve",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.7",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/apollo-upload-client": "^14.1.0",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "@vue/cli-plugin-unit-jest": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "@vue/test-utils": "^1.1.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.24.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.9.0",
+    "fork-ts-checker-webpack-plugin": "6.2.1",
+    "sass": "^1.32.11",
+    "sass-loader": "~10.1.1",
+    "typescript": "^4.2.4",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

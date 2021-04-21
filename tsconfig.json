@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "alwaysStrict":  false,
+    "strictNullChecks":  true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization":  false,
+    "noImplicitAny":  true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "declaration": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "src/app/**/*.vue",
+  ]
+}
